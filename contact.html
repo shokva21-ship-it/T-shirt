@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contactcss.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <p>Urban<span>Wear</span></p>
+            <nav>
+                <a href="index.html#home">Home</a>
+                <a href="index.html#Shop">Shop</a>
+                <a href="#">Catalog</a>
+                <a href="index.html#about">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="buttons">
+                <input type="text" placeholder="Search for t-shirts">
+                <i class="fa fa-search"></i>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </header>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <span class="info-tag">CONTACT INFORMATION</span>
+                    <h3>We'd love to<br>hear from you.</h3>
+                    <p>
+                        Our team is always ready to answer your questions
+                        and help you find your perfect style.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <a
+                                href="mailto:support@urbanwear.com">support@urbanwear.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <a href="tel:+998901234567">+998 90 123 45 67</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4>Our Location</h4>
+                            <p>Namangan, Uzbekistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <div class="form-heading">
+                        <h3>Send Us a Message</h3>
+                        <p>Fill out the form below and we'll get back to
+                            you.</p>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name"
+                                    placeholder="John Smith" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email"
+                                    placeholder="john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" required>
+                                <option value disabled selected>Select a
+                                    subject</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="product">Product
+                                    Information</option>
+                                <option value="shipping">Shipping &
+                                    Delivery</option>
+                                <option value="returns">Returns &
+                                    Exchanges</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="5"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-submit">
+                            Send Message
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                        <p class="form-note">
+                            <i class="fa-solid fa-lock"></i>
+                            Your information is safe and secure with us.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
